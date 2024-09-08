@@ -29,7 +29,7 @@ int main()
    	 	freopen("output.txt", "w", stdout);
 	#endif
    	int A, B, C; cin>>A>>B>>C;
- 	cout << solve(n);
+ 	cout << solve(A, B, C);
 
    	return 0;
 	
