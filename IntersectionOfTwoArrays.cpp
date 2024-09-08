@@ -10,7 +10,7 @@ const int NUM = 10001;
 const ll MOD = 1e9+7;
 
 
-void solve(int a[], int b[], int n, int m){
+int solve(int a[], int b[], int n, int m){
 	int mx = INT_MIN;
 	int ans = 0;
 	for(int i=0; i<n; i++){
@@ -37,7 +37,7 @@ void solve(int a[], int b[], int n, int m){
 		}
 	}
 
-	cout << ans;
+	return ans;
 
 }
 
@@ -55,8 +55,8 @@ int main()
  	for(int i=0; i<n; i++) cin>>a[i];
  	for(int i=0; i<m; i++) cin>>b[i];
 
- 	// cout << solve(a, b, n, m);
-   	solve(a, b, n, m);
+ 	cout << solve(a, b, n, m);
+   	// solve(a, b, n, m);
    	return 0;
 	
 }
