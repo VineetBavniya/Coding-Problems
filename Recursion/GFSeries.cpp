@@ -14,7 +14,7 @@ const ll MOD = 1e9+7;
 lli solve(int N){
         if(N == 1 || N == 2) return N-1;
         
-        lli ans ((solve(N-2) * solve(N-2)) - solve(N-1));
+        lli ans = ((solve(N-2) * solve(N-2)) - solve(N-1));
         
         return ans;
     }
