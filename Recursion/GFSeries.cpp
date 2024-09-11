@@ -41,7 +41,7 @@ int main()
 
    	int n; cin>>n;
 	
-		gfSeries(N);
+	gfSeries(N);
 	
    	return 0;
 	
